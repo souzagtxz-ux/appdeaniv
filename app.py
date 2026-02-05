@@ -70,5 +70,3 @@ if st.button('Clica aqui pra ver a mágica'):
     st.toast("Parabéns, lenda!", icon="🔥")
 
 st.markdown("<p style='text-align: center; color: white; opacity: 0.6; margin-top: 20px;'>7 anos e contando...</p>", unsafe_allow_html=True)
-    </div>
-""", unsafe_allow_html=True)
