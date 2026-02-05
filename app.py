@@ -1,9 +1,9 @@
 import streamlit as st
 
-# Configurações do App
+# Configurações do Site
 st.set_page_config(page_title="7 Anos de Lenda", page_icon="🎈")
 
-# CSS - O visual que você pediu (Roxo/Vermelho com Borda Azul)
+# CSS - Roxo, Vermelho e Borda Azul
 st.markdown("""
     <style>
     .stApp {
@@ -12,60 +12,54 @@ st.markdown("""
     }
     
     .card-resenha {
-        background: rgba(0, 0, 0, 0.7);
+        background: rgba(0, 0, 0, 0.75);
         padding: 30px;
         border-radius: 20px;
-        border: 3px solid #00ffff; /* Borda Azul Ciano */
+        border: 3px solid #00ffff;
         color: white;
-        font-family: 'Arial', sans-serif;
-        font-size: 18px;
-        line-height: 1.6;
+        font-family: 'sans-serif';
+        font-size: 19px;
+        line-height: 1.5;
     }
 
     h1 {
         text-align: center;
         color: #00ffff;
         text-shadow: 2px 2px #000;
+        font-size: 40px;
     }
-
-    /* Estilo para as palavras que você quer destacar */
-    .azul { color: #00ffff; font-weight: bold; }
-    .vermelho { color: #ff4b4b; font-weight: bold; }
     </style>
 """, unsafe_allow_html=True)
 
 st.markdown("<h1>FELIZ NIVER, FIOTA! 🎉</h1>", unsafe_allow_html=True)
 
-# Texto limpo, sem códigos aparecendo para ela
+# Texto sem frescura e sem parecer IA
 st.markdown(f"""
 <div class='card-resenha'>
-    Papo reto, 7 anos já... nem parece q passou tanto tempo kkkkk. <br><br>
-    
-    Se a gente fosse contar tudo q já rolou dava um documentário muito doido. 
-    Lembro até hoje das nossas primeiras resenhas e daquelas 
-    <span class='azul'>calls de 24h, 48h</span> q a gente fazia... 
-    só os loucos sobreviviam sem dormir, rindo de qualquer merda na call kkkkk.
-    A gente não só jogava junto, a gente <span class='azul'>VIVIA</span> no mundo virtual, né? 
-    Mó saudade dessa época, era bom demais.<br><br>
 
-    E mano, impossível esquecer a fase dos seus <span class='vermelho'>namoradinhos</span> KKKKKKK. 
-    Você namorando o viado (ele era muito engraçado namoral) e do nada você ainda meteu 
-    um <span class='vermelho'>web irmão</span> na parada?? Só a gente msm pra ter essas histórias 
-    q ninguém acredita kkkkk. A gente passou por cada surto e cada drama q virou tudo piada interna hoje.<br><br>
+Papo reto, 7 anos já... nem parece q passou tanto tempo kkkkk. 
 
-    Tu é a prova q as melhores amizades vem dos lugares mais aleatórios. 
-    Ver vc crescendo e conquistando suas paradas é muito foda, de vdd. 
-    Mesmo q vc seja meio surtada as vezes (kkkkk), vc é uma pessoa <span class='azul'>incrivelmente foda</span> 
-    e merece o mundo, fiota.<br><br>
+Se a gente fosse contar tudo q já rolou dava um documentário muito doido. 
+Lembro até hoje das nossas primeiras resenhas e daquelas **calls de 24h, 48h** q a gente fazia... só os loucos sobreviviam sem dormir, rindo de qualquer merda na call kkkkk.
+A gente não só jogava junto, a gente **VIVIA** no mundo virtual, né? Mó saudade dessa época, era bom demais.
 
-    Fiz esse "app" aqui só pra te lembrar q vc é importante pra mim e q 
-    essa amizade aqui é mais forte q qualquer Wi-Fi caindo no meio da partida. 
-    Bora acumular mais mil horas de call ainda! Tmj sempre! 🤙🔥
+E mano, impossível esquecer a fase dos seus namoradinhos KKKKKKK. 
+Você namorando o viado (ele era muito engraçado namoral) e do nada você ainda **PEGOU MEU WEB IRMÃO??** Só você msm pra ter essa audácia kkkkkkk. A gente passou por cada surto e cada drama q virou tudo piada interna hoje.
+
+Tu é a prova q as melhores amizades vem dos lugares mais aleatórios. 
+Ver vc crescendo e conquistando suas paradas é muito foda, de vdd. 
+Mesmo q vc seja meio surtada as vezes (kkkkk), vc é uma pessoa **incrivelmente foda** e merece o mundo, fiota.
+
+Fiz esse **site** aqui só pra marcar a data e te lembrar q tamo junto. 
+Bora acumular mais mil horas de call e foda-se kkkkk. É nois sempre! 🤙🔥
+
 </div>
 """, unsafe_allow_html=True)
 
-# Botão final
-if st.button('Clica aqui pra ver a mágica'):
+# Botão de Interação
+if st.button('Clica pra ver a mágica'):
     st.balloons()
     st.snow()
-    st.toast("7 anos não são 7 dias!", icon="🔥")
+    st.toast("7 anos aguentando essa talarica kkkk", icon="🔥")
+
+st.markdown("<p style='text-align: center; color: white; opacity: 0.6; margin-top: 20px;'>7 anos e contando...</p>", unsafe_allow_html=True)
